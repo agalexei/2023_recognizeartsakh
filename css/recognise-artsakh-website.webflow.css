@@ -375,7 +375,7 @@ p {
 .group-title-wrapper.margin {
   position: -webkit-sticky;
   position: sticky;
-  height: 190vh;
+  height: 90vh;
   padding-right: 3vw;
   padding-left: 3vw;
   -webkit-box-pack: center;
@@ -959,6 +959,10 @@ p {
 
   .title-wrapper.space {
     padding-left: 5rem;
+  }
+
+  .rl-title {
+    padding-top: 24px;
   }
 
   .high-wrapper {
