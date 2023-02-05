@@ -957,6 +957,10 @@ p {
     grid-template-rows: auto auto auto auto auto;
   }
 
+  .header-logo {
+    display: none;
+  }
+
   .title-wrapper.space {
     padding-left: 5rem;
   }
