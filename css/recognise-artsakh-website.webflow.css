@@ -375,8 +375,7 @@ p {
 .group-title-wrapper.margin {
   position: -webkit-sticky;
   position: sticky;
-  top: 76px;
-  height: 90vh;
+  height: 190vh;
   padding-right: 3vw;
   padding-left: 3vw;
   -webkit-box-pack: center;
@@ -525,6 +524,13 @@ p {
 
 .art-link {
   color: #ef8b4e;
+  font-weight:400;
+  font-style: bold;
+  text-decoration: none;
+}
+
+.art-link-hp {
+  color: #ef4e4e;
   font-weight:400;
   font-style: bold;
   text-decoration: none;
@@ -686,8 +692,9 @@ p {
 .space-hero {
   position: relative;
   z-index: 0;
-  height: auto;
-  width: 40vw;
+  height: 480px;
+  width: auto;
+  padding-top: 100px;
 }
 
 .image-5 {
@@ -716,6 +723,11 @@ p {
 .caption-heading {
   padding-left: 16px;
   padding-top: 4px;
+}
+
+.caption-heading-hp {
+  padding-top: 4px;
+  text-align: end;
 }
 
 .image-6 {
@@ -901,6 +913,14 @@ p {
     position: relative;
     z-index: 0;
     width: 94vw;
+    padding-top: 0px;
+  }
+
+  .bg-highlight {
+    height: 40vh;
+  }
+  .image-2 {
+    height: 50vh;
   }
 
   .nav-grid {
